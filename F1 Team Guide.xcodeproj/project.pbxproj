@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1373DEF247B46080091658D /* f1teams.json in Resources */ = {isa = PBXBuildFile; fileRef = F1373DEE247B46080091658D /* f1teams.json */; };
+		F1373DF4247B47470091658D /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1373DF3247B47470091658D /* TeamsTableViewController.swift */; };
+		F1373DF6247B477E0091658D /* TeamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1373DF5247B477E0091658D /* TeamsTableViewCell.swift */; };
+		F1373DF8247B49C20091658D /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1373DF7247B49C20091658D /* Teams.swift */; };
+		F1373DFA247B57280091658D /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1373DF9247B57280091658D /* TeamViewController.swift */; };
 		F168FA4E2479DBAB00865977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168FA4D2479DBAB00865977 /* AppDelegate.swift */; };
-		F168FA502479DBAB00865977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168FA4F2479DBAB00865977 /* SceneDelegate.swift */; };
 		F168FA522479DBAB00865977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168FA512479DBAB00865977 /* ViewController.swift */; };
 		F168FA552479DBAB00865977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F168FA532479DBAB00865977 /* Main.storyboard */; };
 		F168FA572479DBAD00865977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F168FA562479DBAD00865977 /* Assets.xcassets */; };
 		F168FA5A2479DBAD00865977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F168FA582479DBAD00865977 /* LaunchScreen.storyboard */; };
+		F1DCEE04247C238C00CAB293 /* TeamDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DCEE03247C238C00CAB293 /* TeamDetailsViewController.swift */; };
+		F1DCEE06247C52C400CAB293 /* DriverDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DCEE05247C52C400CAB293 /* DriverDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1373DEE247B46080091658D /* f1teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = f1teams.json; sourceTree = "<group>"; };
+		F1373DF3247B47470091658D /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		F1373DF5247B477E0091658D /* TeamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewCell.swift; sourceTree = "<group>"; };
+		F1373DF7247B49C20091658D /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		F1373DF9247B57280091658D /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
 		F168FA4A2479DBAB00865977 /* F1 Team Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F1 Team Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F168FA4D2479DBAB00865977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F168FA4F2479DBAB00865977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F168FA512479DBAB00865977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F168FA542479DBAB00865977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F168FA562479DBAD00865977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F168FA592479DBAD00865977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F168FA5B2479DBAD00865977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DCEE03247C238C00CAB293 /* TeamDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewController.swift; sourceTree = "<group>"; };
+		F1DCEE05247C52C400CAB293 /* DriverDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1373DED247B45F10091658D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1373DEE247B46080091658D /* f1teams.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		F1373DF0247B46EF0091658D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1373DF7247B49C20091658D /* Teams.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1373DF1247B46FB0091658D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1373DF5247B477E0091658D /* TeamsTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1373DF2247B47040091658D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1373DF3247B47470091658D /* TeamsTableViewController.swift */,
+				F1373DF9247B57280091658D /* TeamViewController.swift */,
+				F1DCEE03247C238C00CAB293 /* TeamDetailsViewController.swift */,
+				F1DCEE05247C52C400CAB293 /* DriverDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F168FA412479DBAB00865977 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +103,16 @@
 		F168FA4C2479DBAB00865977 /* F1 Team Guide */ = {
 			isa = PBXGroup;
 			children = (
+				F1373DF0247B46EF0091658D /* Models */,
+				F1373DF1247B46FB0091658D /* Views */,
+				F1373DF2247B47040091658D /* Controllers */,
 				F168FA4D2479DBAB00865977 /* AppDelegate.swift */,
-				F168FA4F2479DBAB00865977 /* SceneDelegate.swift */,
 				F168FA512479DBAB00865977 /* ViewController.swift */,
 				F168FA532479DBAB00865977 /* Main.storyboard */,
 				F168FA562479DBAD00865977 /* Assets.xcassets */,
 				F168FA582479DBAD00865977 /* LaunchScreen.storyboard */,
 				F168FA5B2479DBAD00865977 /* Info.plist */,
+				F1373DED247B45F10091658D /* Files */,
 			);
 			path = "F1 Team Guide";
 			sourceTree = "<group>";
@@ -126,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F168FA5A2479DBAD00865977 /* LaunchScreen.storyboard in Resources */,
+				F1373DEF247B46080091658D /* f1teams.json in Resources */,
 				F168FA572479DBAD00865977 /* Assets.xcassets in Resources */,
 				F168FA552479DBAB00865977 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1373DF6247B477E0091658D /* TeamsTableViewCell.swift in Sources */,
+				F1373DFA247B57280091658D /* TeamViewController.swift in Sources */,
+				F1373DF8247B49C20091658D /* Teams.swift in Sources */,
 				F168FA522479DBAB00865977 /* ViewController.swift in Sources */,
+				F1373DF4247B47470091658D /* TeamsTableViewController.swift in Sources */,
+				F1DCEE04247C238C00CAB293 /* TeamDetailsViewController.swift in Sources */,
 				F168FA4E2479DBAB00865977 /* AppDelegate.swift in Sources */,
-				F168FA502479DBAB00865977 /* SceneDelegate.swift in Sources */,
+				F1DCEE06247C52C400CAB293 /* DriverDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +343,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVFTXS644Q;
 				INFOPLIST_FILE = "F1 Team Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +362,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JVFTXS644Q;
 				INFOPLIST_FILE = "F1 Team Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
